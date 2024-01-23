@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fruit-rotten-detection/sw.js', { scope: '/fruit-rotten-detection/' })})}
